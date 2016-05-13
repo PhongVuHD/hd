@@ -1,0 +1,11 @@
+﻿/* Section */
+
+.section-showcase{
+    height:$showcae-height;
+    background:url(../$showcase-height) no-repeat top center;
+    
+    .showcase-content{
+        padding:90px 20px;
+        text-align:center;
+    }
+}

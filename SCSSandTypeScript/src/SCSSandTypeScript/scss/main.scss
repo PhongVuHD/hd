@@ -1,0 +1,24 @@
+﻿/* SCSS */
+/* Author: Phong Vu */
+/* Version: 0.1 */
+
+/* BASE base- style */
+
+@import"base/base/_base.scss";
+@import"base/base/_mixins.scss";
+@import"base/base/_nomallize.scss";
+@import"base/base/_variables.scss";
+
+/* Layout- page layout style */
+
+@import"layout/layout/_footer.scss";
+@import"layout/layout/_header.scss";
+@import"layout/layout/_navar.scss;"
+
+/* Module */
+
+@import"modules/modules/_blocks.scss";
+@import"modules/modules/_buttons.scss";
+@import'modules/modules/_components.scss';
+@import"modules/modules/_sections.scss";
+@import"modules/modules/_typography.scss";

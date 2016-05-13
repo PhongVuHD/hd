@@ -1,0 +1,22 @@
+﻿/* Navbar*/
+.navbar{
+    width:90%;
+    margin:auto;
+    @include add-border(1px, #e7e7e7, 'right-left');
+    border-color:#e7e7e7;
+    min-height:60px;
+    background:#fff;
+    margin-bottom:30px;
+    a{
+        color:$primary-color;
+        font-size:20px;
+        letter-spacing:-0.5px;
+        padding-bottom:20px;
+        padding-top:20px;
+
+    }
+}
+.navbar-inverse .navbar>li>a:hover, .navbar-inverse .navbar-nay>li>a:focus{
+    background-color:$primary-color;
+    color:#fff !important;
+}
