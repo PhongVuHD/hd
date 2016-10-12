@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace HD.Station.Data
+{
+    public interface IDisability
+    {
+        bool Disabled { get; set; }
+    }
+}
